@@ -1,0 +1,25 @@
+{
+  "name": "react-spinner",
+  "version": "0.0.0",
+  "author": "chenglou <chenglou92@gmail.com>",
+  "description": "Loading spinner.",
+  "main": "react-spinner.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "keywords": [
+    "facebook",
+    "react",
+    "spin",
+    "spinner",
+    "loading"
+  ],
+  "dependencies": {
+    "react": "~0.4.0"
+  },
+  "license": "MIT"
+}
