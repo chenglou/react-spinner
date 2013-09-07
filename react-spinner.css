@@ -4,11 +4,6 @@
   height: 32px;
 }
 
-.loading-spinner-big {
-  width: 64px;
-  height: 64px;
-}
-
 .loading-spinner-inner {
   position: absolute;
   top: 50%;
@@ -26,13 +21,6 @@
   height: 2.5px;
   top: -1.25px;
   left: -3.25px;
-}
-
-.loading-spinner-bar-big {
-  width: 13px;
-  height: 4px;
-  top: -2px;
-  left: -6.5px;
 }
 
 @keyframes "loading-spin" {

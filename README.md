@@ -14,6 +14,12 @@ Or simply drop the script somewhere on your page (after React of course):
 <script src="path/to/react-spinner.js"></script>
 ```
 
+And the CSS file:
+
+```html
+<link rel="stylesheet" type="text/css" href="path/to/react-spinner.css">
+```
+
 ## Usage
 
 ```html
@@ -21,7 +27,7 @@ Or simply drop the script somewhere on your page (after React of course):
 * @jsx React.DOM
 */
 
-// it doesn't get simpler than this
+// doesn't get simpler than this, does it?
 React.renderComponent(<Spinner/>, document.body);
 ```
 
