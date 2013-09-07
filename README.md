@@ -1,6 +1,6 @@
 # [React](http://facebook.github.io/react/)-spinner
 
-Zero configuration needed.
+Zero configuration loading spinner.
 
 ## install
 
@@ -8,7 +8,7 @@ Zero configuration needed.
 bower install react-spinner
 ```
 
-Or simply drop the script somewhere on your page (after React of course):
+Simply drop the script somewhere on your page (after React of course):
 
 ```html
 <script src="path/to/react-spinner.js"></script>

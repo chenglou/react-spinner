@@ -2,7 +2,7 @@
   "name": "react-spinner",
   "version": "0.0.0",
   "author": "chenglou <chenglou92@gmail.com>",
-  "description": "Loading spinner.",
+  "description": "Zero configuration loading spinner.",
   "main": "react-spinner.js",
   "ignore": [
     "**/.*",
