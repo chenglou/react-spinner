@@ -16,6 +16,8 @@ var Spinner = React.createClass({
       );
     }
 
-    return React.DOM.div({className: "loading-spinner"}, bars);
+    return this.transferPropsTo(
+      React.DOM.div({className: "loading-spinner"}, bars)
+    );
   }
 });
