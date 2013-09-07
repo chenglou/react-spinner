@@ -16,12 +16,6 @@ var Spinner = React.createClass({
       );
     }
 
-    return (
-      React.DOM.div({className: "loading-spinner"},
-        React.DOM.div({className: "loading-spinner-inner"},
-          bars
-        )
-      )
-    );
+    return React.DOM.div({className: "loading-spinner"}, bars);
   }
 });

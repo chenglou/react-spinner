@@ -2,10 +2,6 @@
   position: relative;
   width: 32px;
   height: 32px;
-}
-
-.loading-spinner-inner {
-  position: absolute;
   top: 50%;
   left: 50%;
 }

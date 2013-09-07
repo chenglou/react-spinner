@@ -20,6 +20,8 @@ And the CSS file:
 <link rel="stylesheet" type="text/css" href="path/to/react-spinner.css">
 ```
 
+The spinner centers itself based on its container's dimensions.
+
 ## Usage
 
 ```html
