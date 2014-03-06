@@ -14,7 +14,11 @@ Npm:
 npm install react-spinner
 ```
 
-`index.jsx` can be compiled with React's [JSX tool](http://facebook.github.io/react/docs/tooling-integration.html#jsx)
+```html
+<script src="path/to/react-spinner/index.js"></script>
+```
+
+(Compatible with CommonJS, e.g. Browserify.)
 
 The CSS file:
 

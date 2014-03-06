@@ -1,6 +1,6 @@
 {
   "name": "react-spinner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "chenglou <chenglou92@gmail.com>",
   "description": "Zero configuration loading spinner.",
   "main": "index.js",
