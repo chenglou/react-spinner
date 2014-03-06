@@ -1,9 +1,9 @@
 {
   "name": "react-spinner",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "author": "chenglou <chenglou92@gmail.com>",
   "description": "Zero configuration loading spinner.",
-  "main": "react-spinner.js",
+  "main": "index.js",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -16,10 +16,11 @@
     "react",
     "spin",
     "spinner",
-    "loading"
+    "loading",
+    "react-component"
   ],
   "dependencies": {
-    "react": "~0.4.0"
+    "react": "~0.9.0"
   },
   "license": "MIT"
 }

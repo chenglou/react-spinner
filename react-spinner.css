@@ -1,4 +1,4 @@
-.loading-spinner {
+.react-spinner {
   position: relative;
   width: 32px;
   height: 32px;
@@ -6,10 +6,10 @@
   left: 50%;
 }
 
-.loading-spinner-bar {
-  -webkit-animation: loading-spin 1.2s linear infinite;
-  -moz-animation: loading-spin 1.2s linear infinite;
-  animation: loading-spin 1.2s linear infinite;
+.react-spinner_bar {
+  -webkit-animation: react-spinner_spin 1.2s linear infinite;
+  -moz-animation: react-spinner_spin 1.2s linear infinite;
+  animation: react-spinner_spin 1.2s linear infinite;
   border-radius: 5px;
   background-color: white;
   position: absolute;
@@ -19,17 +19,17 @@
   left: -3.25px;
 }
 
-@keyframes "loading-spin" {
+@keyframes "react-spinner_spin" {
  0% { opacity: 1; }
  100% { opacity: 0.15; }
 }
 
-@-moz-keyframes loading-spin {
+@-moz-keyframes react-spinner_spin {
  0% { opacity: 1; }
  100% { opacity: 0.15; }
 }
 
-@-webkit-keyframes "loading-spin" {
+@-webkit-keyframes "react-spinner_spin" {
  0% { opacity: 1; }
  100% { opacity: 0.15; }
 }
