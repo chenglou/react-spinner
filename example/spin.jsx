@@ -1,8 +1,6 @@
 /** @jsx React.DOM */
 
-var Spinner = require('Spinner');
-var React = require('React');
-
+var Spinner = reactSpinner;
 var App = React.createClass({
   render: function() {
     var style = {
