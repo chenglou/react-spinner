@@ -11,7 +11,7 @@ var Spinner = React.createClass({displayName: 'Spinner',
         (i - 12) / 10 + 's';
 
       barStyle.WebkitTransform = barStyle.transform =
-        'rotate(' + (i * 30) + 'deg) translate(9.5px)';
+        'rotate(' + (i * 30) + 'deg) translate(-146%)';
 
       bars.push(
         React.DOM.div( {style:barStyle, className:"react-spinner_bar"} )
