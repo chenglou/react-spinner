@@ -17435,7 +17435,7 @@ process.chdir = function (dir) {
           'rotate(' + (i * 30) + 'deg) translate(146%)';
 
         bars.push(
-          React.DOM.div( {style:barStyle, className:"react-spinner_bar"} )
+          React.DOM.div( {style:barStyle, className:"react-spinner_bar", key:i} )
         );
       }
 

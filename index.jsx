@@ -15,7 +15,7 @@
           'rotate(' + (i * 30) + 'deg) translate(146%)';
 
         bars.push(
-          <div style={barStyle} className="react-spinner_bar" />
+          <div style={barStyle} className="react-spinner_bar" key={i} />
         );
       }
 
