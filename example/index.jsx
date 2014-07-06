@@ -1,6 +1,8 @@
 /** @jsx React.DOM */
 
-var Spinner = reactSpinner;
+var React = require('React');
+var Spinner = require('../');
+
 var App = React.createClass({
   render: function() {
     var style = {
@@ -16,4 +18,4 @@ var App = React.createClass({
   }
 });
 
-React.renderComponent(<App />, mountNode);
+React.renderComponent(<App />, document.querySelector('#content'));

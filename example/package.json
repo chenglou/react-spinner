@@ -1,0 +1,28 @@
+{
+  "name": "react-spinner-example",
+  "version": "0.0.0",
+  "description": "react-spinner example.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/browserify -t reactify index.jsx > out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenglou/react-spinner.git"
+  },
+  "author": "chenglou <chenglou92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenglou/react-spinner/issues"
+  },
+  "homepage": "https://github.com/chenglou/react-spinner",
+  "dependencies": {
+    "envify": "^1.2.1",
+    "react": "^0.10.0"
+  },
+  "devDependencies": {
+    "browserify": "^4.2.0",
+    "reactify": "^0.13.1"
+  }
+}
