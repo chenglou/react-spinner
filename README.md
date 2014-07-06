@@ -2,6 +2,8 @@
 
 Zero configuration loading spinner.
 
+[Live demo](https://rawgit.com/chenglou/react-spinner/master/example/index.html) from the example folder.
+
 ## install
 
 Bower:
@@ -14,6 +16,7 @@ Npm:
 npm install react-spinner
 ```
 
+Plain old script tag:
 ```html
 <script src="path/to/react-spinner/index.js"></script>
 ```
@@ -21,23 +24,18 @@ npm install react-spinner
 (Compatible with CommonJS, e.g. Browserify.)
 
 The CSS file:
-
 ```html
 <link rel="stylesheet" type="text/css" href="path/to/react-spinner.css">
 ```
 
-The spinner centers itself based on its container's dimensions. If those are not predefined, simply manually center it.
+The spinner
 
-## Usage
+## API
 
-_Check the example folder too._
+### <Spinner />
+Adds the spinner, which centers itself based on its container's dimensions. If those are not predefined, simply manually center it by adding more style rules to the exposed `.react-spinner` class [here](https://github.com/chenglou/react-spinner/blob/master/react-spinner.css#L1-L7).
 
-```html
-/** @jsx React.DOM */
-
-// doesn't get simpler than this, does it?
-React.renderComponent(<Spinner />, document.body);
-```
+You can also override the `.react-spinner`'s `width` and `height` if you want a bigger or smaller spinner. Everything resizes correctly.
 
 ## License
 

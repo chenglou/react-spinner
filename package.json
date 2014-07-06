@@ -1,6 +1,6 @@
 {
   "name": "react-spinner",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Zero configuration loading spinner.",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,6 @@
     "style": "react-spinner.css"
   },
   "devDependencies": {
-    "reactify": "^0.13.1"
+    "react-tools": "^0.10.0"
   }
 }
