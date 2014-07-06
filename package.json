@@ -4,7 +4,8 @@
   "description": "Zero configuration loading spinner.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/jsx index.jsx > index.js"
   },
   "repository": {
     "type": "git",
@@ -24,11 +25,14 @@
     "url": "https://github.com/chenglou/react-spinner/issues"
   },
   "homepage": "https://github.com/chenglou/react-spinner",
-  "peerDependencies": {
+  "dependencies": {
     "react": "^0.10.0"
   },
   "example": {
     "script": "example/spin.jsx",
     "style": "react-spinner.css"
+  },
+  "devDependencies": {
+    "reactify": "^0.13.1"
   }
 }
