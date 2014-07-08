@@ -17450,9 +17450,9 @@ process.chdir = function (dir) {
   } else {
     module.exports = Spinner;
   }
-})(window, typeof require === 'function' ? require('React') : React);
+})(window, typeof require === 'function' ? require('react') : React);
 
-},{"React":273}],139:[function(require,module,exports){
+},{"react":273}],139:[function(require,module,exports){
 module.exports=require(2)
 },{"./focusNode":238}],140:[function(require,module,exports){
 module.exports=require(3)
