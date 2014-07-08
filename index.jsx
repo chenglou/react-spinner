@@ -31,4 +31,3 @@
     module.exports = Spinner;
   }
 })(window, typeof require === 'function' ? require('react') : React);
-
