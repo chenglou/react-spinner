@@ -1,6 +1,6 @@
 {
   "name": "react-spinner",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Zero configuration loading spinner.",
   "main": "index.js",
   "scripts": {
