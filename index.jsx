@@ -1,5 +1,3 @@
-/** @jsx React.DOM */
-
 (function(window, React) {
   var Spinner = React.createClass({
     render: function() {
@@ -19,8 +17,8 @@
         );
       }
 
-      return this.transferPropsTo(
-        <div className="react-spinner">{bars}</div>
+      return (
+        <div {...this.props}  className="react-spinner">{bars}</div>
       );
     }
   });

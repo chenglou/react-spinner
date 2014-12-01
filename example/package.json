@@ -19,10 +19,10 @@
   "homepage": "https://github.com/chenglou/react-spinner",
   "dependencies": {
     "envify": "^1.2.1",
-    "react": "^0.10.0"
+    "react": "^0.12.0"
   },
   "devDependencies": {
     "browserify": "^4.2.0",
-    "reactify": "^0.13.1"
+    "reactify": "^0.17.1"
   }
 }
