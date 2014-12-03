@@ -1,4 +1,4 @@
-var React = require('React');
+var React = require('react');
 var Spinner = require('../');
 
 var App = React.createClass({
@@ -16,4 +16,4 @@ var App = React.createClass({
   }
 });
 
-React.renderComponent(<App />, document.querySelector('#content'));
+React.render(<App />, document.querySelector('#content'));

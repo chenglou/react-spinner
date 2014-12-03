@@ -1,6 +1,6 @@
 {
   "name": "react-spinner",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "chenglou <chenglou92@gmail.com>",
   "description": "Zero configuration loading spinner.",
   "main": "index.js",
@@ -9,7 +9,9 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "example",
+    "package.json"
   ],
   "keywords": [
     "facebook",

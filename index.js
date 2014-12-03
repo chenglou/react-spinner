@@ -1,13 +1,11 @@
-/** @jsx React.DOM */
-
 (function(window, React) {
   var Spinner = React.createClass({displayName: 'Spinner',
     render: function() {
       var bars = [];
-      var barStyle;
+      var props = this.props;
 
       for (var i = 0; i < 12; i++) {
-        barStyle = {};
+        var barStyle = {};
         barStyle.WebkitAnimationDelay = barStyle.animationDelay =
           (i - 12) / 10 + 's';
 
@@ -15,12 +13,14 @@
           'rotate(' + (i * 30) + 'deg) translate(146%)';
 
         bars.push(
-          React.DOM.div( {style:barStyle, className:"react-spinner_bar", key:i} )
+          React.createElement("div", {style: barStyle, className: "react-spinner_bar", key: i})
         );
       }
 
-      return this.transferPropsTo(
-        React.DOM.div( {className:"react-spinner"}, bars)
+      return (
+        React.createElement("div", React.__spread({},  props, {className: (props.className || '') + ' react-spinner'}), 
+          bars
+        )
       );
     }
   });

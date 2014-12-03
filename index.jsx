@@ -2,10 +2,10 @@
   var Spinner = React.createClass({
     render: function() {
       var bars = [];
-      var barStyle;
+      var props = this.props;
 
       for (var i = 0; i < 12; i++) {
-        barStyle = {};
+        var barStyle = {};
         barStyle.WebkitAnimationDelay = barStyle.animationDelay =
           (i - 12) / 10 + 's';
 
@@ -18,7 +18,9 @@
       }
 
       return (
-        <div {...this.props}  className="react-spinner">{bars}</div>
+        <div {...props} className={(props.className || '') + ' react-spinner'}>
+          {bars}
+        </div>
       );
     }
   });
