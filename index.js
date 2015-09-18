@@ -1,5 +1,5 @@
 (function(window, React) {
-  var Spinner = React.createClass({displayName: 'Spinner',
+  var Spinner = React.createClass({displayName: "Spinner",
     render: function() {
       var bars = [];
       var props = this.props;
@@ -30,4 +30,4 @@
   } else {
     module.exports = Spinner;
   }
-})(window, typeof require === 'function' ? require('react') : React);
+})((typeof window !== 'undefined' ? window : {}), (typeof require === 'function' ? require('react') : React));
