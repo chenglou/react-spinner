@@ -30,4 +30,4 @@
   } else {
     module.exports = Spinner;
   }
-})(window, typeof require === 'function' ? require('react') : React);
+})((typeof window !== 'undefined' ? window : {}), (typeof require === 'function' ? require('react') : React));
