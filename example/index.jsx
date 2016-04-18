@@ -1,19 +1,5 @@
-var React = require('react');
-var Spinner = require('../');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './component';
 
-var App = React.createClass({
-  render: function() {
-    var style = {
-      height: 50,
-      width: 50,
-      backgroundColor: 'black'
-    };
-    return (
-      <div style={style}>
-        <Spinner />
-      </div>
-    );
-  }
-});
-
-React.render(<App />, document.querySelector('#content'));
+ReactDOM.render(<App />, document.querySelector('#content'));

@@ -1,33 +1,27 @@
-(function(window, React) {
-  var Spinner = React.createClass({
-    render: function() {
-      var bars = [];
-      var props = this.props;
+import React from 'react';
 
-      for (var i = 0; i < 12; i++) {
-        var barStyle = {};
-        barStyle.WebkitAnimationDelay = barStyle.animationDelay =
-          (i - 12) / 10 + 's';
+const Spinner = React.createClass({
+  render: function() {
+    let bars = [];
+    const props = this.props;
 
-        barStyle.WebkitTransform = barStyle.transform =
-          'rotate(' + (i * 30) + 'deg) translate(146%)';
+    for (let i = 0; i < 12; i++) {
+      let barStyle = {};
+      barStyle.WebkitAnimationDelay = barStyle.animationDelay =
+        (i - 12) / 10 + 's';
 
-        bars.push(
-          <div style={barStyle} className="react-spinner_bar" key={i} />
-        );
-      }
+      barStyle.WebkitTransform = barStyle.transform =
+        'rotate(' + (i * 30) + 'deg) translate(146%)';
 
-      return (
-        <div {...props} className={(props.className || '') + ' react-spinner'}>
-          {bars}
-        </div>
+      bars.push(
+        <div style={barStyle} className="react-spinner_bar" key={i} />
       );
     }
-  });
 
-  if (typeof module === 'undefined') {
-    window.Spinner = Spinner;
-  } else {
-    module.exports = Spinner;
+    return (
+      <div {...props} className={(props.className || '') + ' react-spinner'}>
+        {bars}
+      </div>
+    );
   }
-})((typeof window !== 'undefined' ? window : {}), (typeof require === 'function' ? require('react') : React));
+});
