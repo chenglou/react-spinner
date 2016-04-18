@@ -18,7 +18,7 @@ npm install react-spinner
 
 Plain old script tag:
 ```html
-<script src="path/to/react-spinner/index.js"></script>
+<script src="path/to/react-spinner/build/index.js"></script>
 ```
 
 (Compatible with CommonJS, e.g. Browserify.)
