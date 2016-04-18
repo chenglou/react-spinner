@@ -25,3 +25,5 @@ const Spinner = React.createClass({
     );
   }
 });
+
+export default Spinner;

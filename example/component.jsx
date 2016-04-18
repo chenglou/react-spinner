@@ -1,5 +1,5 @@
 import React from 'react';
-import Spinner from '../';
+import Spinner from '../index.jsx';
 
 const App = React.createClass({
   render: function() {
