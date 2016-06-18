@@ -2,7 +2,7 @@
 
 Zero configuration loading spinner.
 
-[Live demo](https://rawgit.com/chenglou/react-spinner/master/example/index.html) from the example folder.
+[Live demo](https://rawgit.com/chenglou/react-spinner/master/example/index.html) from the example folder. (To build it locally, clone this repo, `npm install && npm start` then open http://localhost:3000/example/)
 
 ## install
 

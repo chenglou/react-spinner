@@ -5,6 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "start": "NODE_ENV=development node server.js",
+    "compile-example-for-readme": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prerelease": "NODE_ENV=production webpack --config webpack.prod.config.js"
   },
