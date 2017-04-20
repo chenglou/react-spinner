@@ -1,7 +1,10 @@
 import React from 'react';
 
-const Spinner = React.createClass({
-  render: function() {
+class Spinner extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
     let bars = [];
     const props = this.props;
 
@@ -24,6 +27,6 @@ const Spinner = React.createClass({
       </div>
     );
   }
-});
+};
 
 export default Spinner;
